@@ -11,8 +11,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.stock_fact.domain.User
-import com.example.stock_fact.retrofit.ApiUtils
-import com.example.stock_fact.retrofit.SprintPayServicesRemote
+import com.example.stock_fact.repository.ApiUtils
+import com.example.stock_fact.repository.SprintPayServicesRemote
 import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Callback

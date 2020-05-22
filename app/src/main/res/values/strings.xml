@@ -17,4 +17,8 @@
     <string name="stock_products">Product\'s stoks</string>
     <string name="stock_invoices">invoices</string>
     <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="fill_product_name">"fill product name "</string>
+    <string name="fill_product_price">the product price  must be greater than 0</string>
+    <string name="default_poduct">product</string>
 </resources>

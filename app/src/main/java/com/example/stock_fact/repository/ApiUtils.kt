@@ -1,6 +1,6 @@
-package com.example.stock_fact.retrofit
+package com.example.stock_fact.repository
 
-import com.example.stock_fact.retrofit.RetrofitClient.getClient
+import com.example.stock_fact.repository.RetrofitClient.getClient
 
 
 /**

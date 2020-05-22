@@ -14,6 +14,12 @@
         <action
             android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
             app:destination="@id/nav_home_second" />
+        <action
+            android:id="@+id/action_nav_home_to_addproductFragment"
+            app:destination="@id/addproductFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_productList"
+            app:destination="@id/productList" />
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
@@ -40,4 +46,14 @@
         android:name="com.example.stock_fact.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addproductFragment"
+        android:name="com.example.stock_fact.ui.add_product.AddproductFragment"
+        android:label="addproduct_fragment"
+        tools:layout="@layout/addproduct_fragment" />
+    <fragment
+        android:id="@+id/productList"
+        android:name="com.example.stock_fact.ui.product_list.ProductList"
+        android:label="product_list_fragment"
+        tools:layout="@layout/product_list_fragment" />
 </navigation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapter_iem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="3"
+ android:layout_marginVertical="@dimen/dimen_8dp"
+    android:layout_marginHorizontal="@dimen/dimen_16dp"
+    android:background="@drawable/shadow"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_poduct"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/qt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1400"
+            android:textAlignment="textStart"
+            android:textColor="#777"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/ordered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="textStart"
+            android:textColor="#777"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/product_reduise_qte"
+            android:layout_width="42dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/secont_btn"
+            android:text="-"
+            android:paddingBottom="4dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/product_add_qte"
+            android:layout_width="42dp"
+            android:layout_height="24dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</GridLayout>
