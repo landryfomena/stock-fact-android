@@ -4,7 +4,7 @@ import java.util.*
 
 data class Stock(
     var stockId: Long?,
-    var dateCreation: Date?,
-  var   quantity : Int?) {
-    constructor():this(0,Date(),0)
+    var quantity: Int?
+) {
+    constructor() : this(0, 0)
 }

@@ -17,7 +17,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/item_product_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/default_poduct"
@@ -26,7 +26,7 @@
             android:textSize="18sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@+id/qt"
+            android:id="@+id/item_product_quantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="500"
@@ -43,7 +43,7 @@
 
 
         <TextView
-            android:id="@+id/pu"
+            android:id="@+id/item_product_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1400"

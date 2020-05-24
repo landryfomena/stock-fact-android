@@ -21,4 +21,7 @@
     <string name="fill_product_name">"fill product name "</string>
     <string name="fill_product_price">the product price  must be greater than 0</string>
     <string name="default_poduct">product</string>
+    <string name="insufiscient">quantity not available</string>
+    <string name="positive">please specify a positive quantity</string>
+    <string name="confirm_command">Confirm your Order</string>
 </resources>
