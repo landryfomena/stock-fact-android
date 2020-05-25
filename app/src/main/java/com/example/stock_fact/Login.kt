@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.stock_fact.domain.User
 import com.example.stock_fact.repository.ApiUtils
 import com.example.stock_fact.repository.SprintPayServicesRemote
+import com.example.stock_fact.ui.register.RegisterActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -42,6 +43,10 @@ class Login : AppCompatActivity() {
                 login(edLogin!!.getText().toString(),edEmail!!.getText().toString());
             }
 
+        }
+        singnup_btn.setOnClickListener {
+            val i=Intent(this, RegisterActivity::class.java)
+            startActivity(i)
         }
     }
     private fun login(edLogin: String, edEmail: String) {

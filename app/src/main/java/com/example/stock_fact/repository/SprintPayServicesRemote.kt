@@ -2,10 +2,7 @@ package com.example.stock_fact.repository
 
 import com.example.stock_fact.domain.*
 import retrofit2.Call
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.Header
-import retrofit2.http.POST
+import retrofit2.http.*
 
 
 interface SprintPayServicesRemote {
@@ -21,4 +18,10 @@ interface SprintPayServicesRemote {
     fun listRepos(@Header("Authorization") user: String?): Call<List<ProductResponse?>?>?
     @POST("/command/register")
     fun createCommand(@Header("Authorization") authHeader: String?, @Body command: CommanRequest?): Call<Command?>?
+
+    @POST("/auth/register")
+    fun createUser(@Header("Authorization") authHeader: String?, @Body userRequest: UserRequest?): Call<User?>?
+
+    @POST("/auth/validate")
+    fun validateUser(@Header("Authorization") authHeader: String?,@Query("validateMessage") validateMessage: Int,@Query("username") username: String): Call<User?>?
 }

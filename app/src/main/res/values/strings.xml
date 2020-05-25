@@ -24,4 +24,9 @@
     <string name="insufiscient">quantity not available</string>
     <string name="positive">please specify a positive quantity</string>
     <string name="confirm_command">Confirm your Order</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="user_name">user name</string>
+    <string name="email">email</string>
+    <string name="fill_this_field">fill this field</string>
 </resources>
